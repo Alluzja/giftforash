@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="raticon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="raticon.jpg" type="image/x-icon">
+    <title>Christmas Gift ♥ </title>
+</head>
+<body>
+    <div class="snowflake1">
+    <img src="snowflakes-png-17.png"></div>
+    <div class="snowflake2">
+    <img src="snowflakes-png-17.png"></div>
+    <div class="chris_container">
+        <div class="merrychris"> <br>Merry <br>Christmas</div>
+        <div class="merrychris2">TO ASH  </div> 
+        
+        <div class="reindeer"><img src="santa-sleigh-reindeer-png-santa-sleigh-silhouette-11563614447qcnuvybuyf.png"></div>
+   <div class="lights">
+    <img src="—Pngtree—christmas light effect lamp string_6958734.png"></div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="wishes_container">
+        <div class="buttonbox">
+        <center><button class="button-music" id="playButton">Click me to play music</button></center>
+              <audio controls loop id="audio" style="height: 0;">
+              <source src="Yume-Utsutsu.mp3" type="audio/mp3">
+             </audio></div>
+
+        <div class="lettertitle">
+            <p>A letter to you:</p></div>
+        
+        <img src="letter1.jpg">
+        <img src="letter2.jpg">
+        <img src="letter3.png">
+    </div>
+
+
+    <div class="snow_wrap">
+        <div class="snow"></div>
+    </div>
+
+    <div class="another.page">
+        <center><button class="btn" id = "yesButton" onclick="nextPage()">CLICK HERE TO ANOTHER PAGE</button></center> <br><br>
+    </div>    
+
+<script>
+    document.getElementById('audio').volume = 0.2;
+
+    document.getElementById('playButton').addEventListener('click', function() {
+        var audio = document.getElementById('audio');
+        audio.play();
+    });
+    function nextPage() {
+                        window.location.href = "index2.html";}
+
+</script>
+
+    <footer>
+        <div class="footer1">
+            Made with love by pati <img src="white-heart_1f90d.png">
+        </div>
+    </footer>
+    
+</body>
+</html>

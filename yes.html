@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./style/css/yes_styles.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">EZZZZZZZZ </h1>
+            </div>
+            <img id="musicImage" src="./style/images/cute-cat.gif" alt="Click me to play music" onclick="playMusic()">
+
+<audio id="musicPlayer" src="chipi.mp3"></audio>
+
+<script>
+    document.getElementById('musicPlayer').volume = 0.2;
+  function playMusic() {
+    var audio = document.getElementById("musicPlayer");
+
+    // Check if the audio is currently paused, if yes, play it, otherwise pause it
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+</script>
+            <p class = "text"> I HOPE YOU LIKED IT</p>
+        </div>
+       
+    </body> 
+</html>
